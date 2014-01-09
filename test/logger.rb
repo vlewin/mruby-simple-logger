@@ -1,6 +1,6 @@
-class LoggerTest < MTest::Unit::TestCase
+class SimpleLoggerTest < MTest::Unit::TestCase
   def setup
-    $logger = Logger.new
+    $logger = Simple::Logger.new
   end
 
   def test_standard_log
